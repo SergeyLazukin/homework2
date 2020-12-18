@@ -69,7 +69,6 @@ public class FileProcessor {
         }
 
         // TODO: NotImplemented: остановить поток writerThread
-
         threadFileWriter.interrupt();
         executorService.shutdown();
 
